@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="action_settings">Sort by</string>
+    <string name="popularity">Popularity</string>
+    <string name="rating">Rating</string>
+    <string name="fav">Favourites</string>
+    <string name="popularity_desc">popularity.desc</string>
+    <string name="rating_desc">vote_count.desc</string>
+    <string name="vote_avg">/10</string>
+    <string name="trailer">Trailers</string>
+
+    <style name="MyMaterialTheme" parent="MyMaterialTheme.Base"></style>
+
+    <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>
